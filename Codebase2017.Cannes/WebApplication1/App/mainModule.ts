@@ -1,4 +1,4 @@
-﻿import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MainComponent } from './Components/mainComponent';
 import { FormsModule } from '@angular/forms';

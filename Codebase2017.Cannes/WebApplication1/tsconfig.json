@@ -1,4 +1,4 @@
-﻿{
+{
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
@@ -10,7 +10,13 @@
     "noImplicitAny": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "outDir": "./dist/app"
   },
+  "exclude": [
+    "node_modules",
+    "lib",
+    "dist"
+  ],
   "compileOnSave": true
 }
