@@ -104,6 +104,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Css\site.css" />
     <Content Include="Global.asax" />
     <Content Include="gulp.config.js" />
     <Content Include="gulpfile.js" />
@@ -123,6 +124,7 @@
     <Content Include="Views\web.config" />
     <Content Include="package.json" />
     <Content Include="tsconfig.json" />
+    <Content Include="bower.json" />
     <None Include="packages.config" />
     <Content Include="Views\_BaseLayout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -139,7 +141,7 @@
     <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="App\Components\mainComponent.ts" />
+    <TypeScriptCompile Include="App\Components\appComponent.ts" />
     <TypeScriptCompile Include="App\mainModule.ts" />
     <TypeScriptCompile Include="App\main.ts" />
   </ItemGroup>

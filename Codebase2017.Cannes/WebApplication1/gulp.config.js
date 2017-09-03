@@ -14,7 +14,7 @@
         appDest: base.webroot + "app",
         js: base.webroot + "js/*.js",
         jsDest: base.webroot + 'js',
-        css: base.webroot + "css/*.css",
+        css: "./Css/*.css",
         cssDest: base.webroot + 'css',
         lib: base.webroot + "lib/",
         node_modules: base.node_modules,
